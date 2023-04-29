@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem 0 0 0.25rem;
+  }
+  
+  button {
+    padding: 0.5rem;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+  
+  #weather {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  
